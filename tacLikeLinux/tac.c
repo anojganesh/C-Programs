@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//no prototype cause of single file
 
 void fileSize (char *fname, int *longestLine, int *numLines ) {
   FILE *fp=fopen(fname,"r");
